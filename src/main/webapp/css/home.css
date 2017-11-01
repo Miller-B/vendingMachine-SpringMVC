@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2017, 2:05:09 PM
+    Author     : BMMil
+*/
+
+#item {
+    height: 0;
+    width: 100px;
+    padding-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-style: solid;
+    background-color: lightgrey;
+    box-shadow: 10px 10px 5px grey
+    }
+
+#dollar, #quarter, #dime, #nickel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#numSelect {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#changeRet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+#dollar, #quarter, #dime, #nickel, #purchase, #changeRet {
+    box-shadow: 10px 10px 5px grey
+}
+
+.tr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    background-color: lightgrey;
+    box-shadow: 10px 10px 5px grey
+    }
+    
+.square {
+    float:left;
+    position: relative;
+    width: 25%;
+    padding-bottom : 25%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:darkgrey;
+    overflow:hidden;
+    border-style: solid;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+/*  For list */
+ul{
+    text-align:left;
+    margin:5% 0 0;
+    padding:0;
+    list-style-position:inside;
+    color: white;
+    font-weight: bold;
+    
+}
+li{
+    position: relative;
+    margin: 0 0 0 5%;
+    padding:0;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+    
+    .panel-body {
+    border-style: solid;
+    background-color: lightgrey;
+    box-shadow: 10px 10px 5px grey
+    }
+}
